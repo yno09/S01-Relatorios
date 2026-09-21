@@ -1,1 +1,1 @@
-Repositório de relatórios da matéria S01 do Inatel :)
+Repositório de relatórios da disciplina S01 do Inatel :)
