@@ -17,10 +17,10 @@ int main()
 {
     int n;
 
-    cout << "Digite o tamanho do chaveamento (n): ";
+    cout << "Digite o tamanho do chaveamento (n): " << endl << endl;
     cin >> n;
 
-    cout << "Total de cenários de confrontos possíveis: ";
+    cout << "Total de cenários de confrontos possíveis: " << endl << endl;
     cout << combinar_equipes(n);
     return 0;
 }
