@@ -16,11 +16,11 @@ int combinar_equipes(int n)
 int main() 
 {
     int n;
-
-    cout << "Digite o tamanho do chaveamento (n): " << endl << endl;
+    cout << "Digite o tamanho do chaveamento (n): " << endl;
     cin >> n;
+    
 
-    cout << "Total de cenários de confrontos possíveis: " << endl << endl;
+    cout << "Total de cenários de confrontos possíveis: " << endl;
     cout << combinar_equipes(n);
     return 0;
 }
