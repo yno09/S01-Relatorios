@@ -56,17 +56,14 @@ class CafeLeblanc {
         }
     }
 }
-
+// MAIN
 public class exercicio02JAVAPOO {
 
     public static void main(String[] args) {
 
         ItemDoCardapio cafe = new ItemDoCardapio("Café", 5.00);
-
         ItemDoCardapio bolo = new ItemDoCardapio("Bolo", 8.00);
-
         ComboLeblanc combo = new ComboLeblanc("Combo Café + Bolo", 13.00);
-
         CafeLeblanc cafeLeblanc = new CafeLeblanc();
 
         cafeLeblanc.adicionar(cafe);
